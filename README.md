@@ -4,6 +4,67 @@
 
 
 
+A logistics company wants to analyze the distribution of large warehouses across various locations to optimize storage and transportation planning. They need to determine the number of warehouses in each location that exceed a capacity of 3,000 units.
+To achieve this, they require a query that retrieves the location, calculates the total warehouses meeting the capacity requirement, and arranges the results in descending order based on the warehouse quantity.
 
 
-Once, a language model named Word Wand was tasked with manipulating sentences by a curious user. Word Wand was up for the challenge, altering the sentences based on their word count, reversing each word for odd word counts and reversing the entire sentence's word positions, resulting in a completely flipped sequence for even counts.  Create a software program to automate this manipulation task.Constraints: The sentence should contain only alphabets and spaces; otherwise, print "Invalid Sentence".Note:Do not edit the existing code template.In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.Implement the business requirements within the main method. Please do not change the class name.Please do not use System.exit(0); to terminate the program.Sample Input / Output 1:Enter the sentenceThe Sun ShineWord Count: 3ehT nuS enihSSample Input / Output 2:Enter the sentenceBold ActionWord Count: 2Action BoldSample Input / Output 3:Enter the sentenceThe number 42 is often referred to as the answer to life, the universe, and everythingInvalid Sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The result should have the following columns:  
+
+    
+        
+            
+                location
+            
+            
+                total_warehouses
+            
+        
+    
+
+
+
+
+
+
+    location- the address of the warehousetotal_warehouses- the total number of warehousesSort the results in descending order based on the location.
+
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+Rules: Include only records where the capacity is greater than 3000.Schem
